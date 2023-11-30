@@ -16,7 +16,7 @@ This is a simple PHP library for easy form validation.
 1. Clone the repository or download the ZIP file.
 
 ```bash
-git clone https://github.com/xentixar/php_data_validation.git
+git clone https://github.com/xentixar/easy_php_form_validation.git
 ```
 
 2. Configure database in database.php inside config directory.
