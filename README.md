@@ -49,8 +49,8 @@ $validator = new Validation($data);
 
 ```bash
 $validated = $validator->validate([
-    'name' => 'required|max:100|exists:users,id',
-    'email' => 'required|email|max:100',
+    'name' => 'required|max:100',
+    'email' => 'required|email|max:100|exists:users,email',
     'password' => 'required|min:8|max:25',
     'role' => 'required|in:admin,user'
 ]);
