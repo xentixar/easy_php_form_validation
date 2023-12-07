@@ -67,7 +67,10 @@ The library supports the following validation rules:
 * 'max:m' =>  Maximum length for strings or maximum value for numbers.
 * 'min:n' =>  Minimum length for strings or minimum value for numbers.
 * 'in:something,something_else' =>  Field must be a value present in the data.
+* 'alpha_dash' => Field can only contain alpha-numeric, underscores and dashes.
 * 'exists:table,column' => Field must be a value present in the column of the given table.
+* 'unique:table,column' => Field must be a unique value in the column of the given table.
+* 'unique:table,column,id' => Field must be a unique value in the column of the given table except given id.
 
 
 ## Examples
